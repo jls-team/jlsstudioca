@@ -11,6 +11,13 @@ h1{
     font-size: 3.5rem;
 }
 
+@media screen and (max-width: 480px) {
+    h1{ 
+        font-size: 3rem;
+    }
+}
+
+
 h2{
     font-family: "Montserrat";
     font-weight: bold;
@@ -24,7 +31,7 @@ h2{
 h3{
     font-family: "Playfair Display";
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-top: 2rem;
 }
 
@@ -36,7 +43,7 @@ h4{
 
 p{
     font-family: "Montserrat";
-    /* font-size: 0.8rem; */
+    font-size: 1rem;
 }
 
 .item p{
