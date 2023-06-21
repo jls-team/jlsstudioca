@@ -1,0 +1,77 @@
+/* donanum page css */
+.donanum p{
+    color: #838c9f;
+}
+.donanum h1{
+    color: #021032;
+}
+.donanum h5{
+    color: #b4b9c2;
+    font-weight: 400;
+}
+.donanum .hero1-right-text{
+    order:1
+    }
+.donanum .hero1-left-img {
+    order:2
+}
+@media all and (min-width: 992px) {
+    .donanum .hero1-right-text{
+    order:2
+}
+    .donanum .hero1-left-img {
+        order:1
+    }
+}
+
+.donanum .link-btn:hover{
+    background-color: #687081;
+}
+.donanum a    { 
+    text-decoration: none;
+}
+
+.donanum .info-banner, .donanum .grey-bg{
+    background-color: #eef1f5 ;
+}
+.donanum .time-table-bg, .donanum .problems-box-con{
+    background-color:  #fbfbfb;
+}
+.donanum .problems-box{
+    padding-bottom: 50px;
+}
+.step-text-container1{
+    background: url("../asset/donanum/bg01.png") no-repeat;
+    height: 100px;
+    background-size:  contain;
+}
+.step-text-container2{
+    background: url("../asset/donanum/bg02.png") no-repeat;
+    height: 100px;
+    background-size:  contain;
+}
+.step-text-container3{
+    background: url("../asset/donanum/bg03.png") no-repeat;
+    height: 100px;
+    background-size:  contain;
+}
+
+.donanum .wireframe-bottom{
+    margin-bottom: 80px;
+}
+
+.donanum .padding-tb {
+    padding: 40px 0 80px 0px;
+}
+
+.padding-tb2{
+    padding: 30px 0 70px 0px;
+}
+.donanum .sp-b {
+    padding: 20px 0;
+}
+.donanum .link-btn{
+    background: #838c9f;
+    margin-top: 40px;
+    border-radius: 400px;
+}

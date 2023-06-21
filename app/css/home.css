@@ -1,0 +1,306 @@
+/* home page css */
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+.content-title{
+    padding: 3.5rem 0 4rem 0;
+}
+
+h3{
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+h4{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+p{
+    font-family: "Montserrat";
+    /* font-size: 0.8rem; */
+}
+
+.item p{
+    text-align: center;
+    vertical-align: middle
+}
+
+.view-more-btn{
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-top: 1.8rem
+}
+
+.content3 .content-title{
+    margin:1rem 0 0rem 0;
+}
+.services{
+    max-width: 800px;
+    text-align: center;
+    padding-top: 4rem;
+    margin: auto;
+}
+
+.herobanner{
+    object-fit: fill;
+    width: 100%;
+    margin: auto 0;
+}
+/* start normal css */
+.home .top-menu{
+    position: fixed;
+    width: 100%; 
+    padding: 0 20px;
+    background-color: white;
+}
+ 
+.home .top-menu a:hover, .view-more-btn:hover, .footer a:hover, h1 span{
+    color: #656FE5;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: #656FE5;
+    margin-top: 6%;
+    margin-right: 10px;
+}
+
+.thumbnail-container .atext:hover{
+    color: black;
+}
+
+.logo-con{
+    width: 40%;
+}
+
+.menu-list{
+    width: 60%;
+    text-align: right;
+    padding-top: 10px;
+}
+.menu-list a{
+   padding: 0 2%;
+}
+.home .logo{
+    padding-top: 10px;  
+}
+.home .logo-icon{ 
+    padding-right: 2%;
+}
+
+.home .home-section1{ 
+    /* height: 40vh; */
+    padding-bottom: 5rem; 
+}
+.herobanner-container{
+    padding-top: 50px;
+}
+.home-mainText{
+    max-width: 80%;
+}
+
+.home-section3{
+    margin-top: 100px;
+}
+ 
+.home .ch-emoji-con{
+    border-radius: 100px; 
+    width: 165px;
+    height: 165px; 
+    margin-bottom: 40px;
+}
+
+.home .ch-emoji{ 
+    font-size: 95px;
+    text-align: center;
+    /* padding-top: 5px; */
+}
+.home-section3 .download-btn p{
+    margin: 0
+}
+.home-mainText{
+    padding-top: 40%; 
+}
+.home-mainText h1{
+    text-transform: uppercase;
+}
+.home .boxCon{
+    width: 100%;
+}
+
+.item-flex{
+    display: flex;
+}
+.content2 .text{
+    padding-left: 2rem;
+}
+.content2{
+    background-color: #F4F3EF;
+    padding-bottom: 4rem;
+}
+ 
+.content2 .icon{
+    padding-top: 2rem;
+}
+ 
+
+.thumb-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* border-radius: 10px;
+    border: 1px solid #eeeeee; */
+}
+
+.thumbnail-container{
+    margin-bottom: 4rem;
+    padding-right: 2rem; 
+}
+
+
+@media screen and (min-width: 576px) {
+    .home .boxCon{
+        width: 50%;
+    }
+    .home-mainText{
+        padding-top: 15%; 
+    }
+}
+.home .boxCon h3, .home h7{ 
+    text-transform: uppercase;
+}
+.home h7{ 
+    font-size: 14px;
+}
+.home .boxCon h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+.home .boxCon .text{
+    padding: 20px;
+    max-width: 45%; 
+}
+.home .boxCon .clients{
+    font-size: 12px;
+}
+.home .boxCon .learnmore{
+    font-size: 14px;
+    color: #00ffcc;
+}
+
+.home .footer{ 
+    border-top: 1px solid #eeeeee;
+    height: 250px; 
+}
+
+.content4{
+    margin-top: 40px;
+    border-top: 1px solid #eeeeee;
+}
+
+.content4 .item{
+    border: 1px solid #eeeeee;
+    border-radius: 2px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.content4 .item p{
+    margin-top: 5%;
+}
+
+.home .footer{ 
+    padding-top: 50px;
+    text-align: center;
+    font-size: 12px; 
+}
+.home .boxCon .box1{
+    height:350px;
+    background: url("../asset/home/home-banner1.jpg")no-repeat center;
+    background-size: cover;
+}
+.home .boxCon .box2{
+    height:350px;
+    background: url("../asset/home/home-banner2.jpg")no-repeat center;
+    background-size: cover;
+}
+.home .boxCon .box3{
+    height:350px;
+    background: url("../asset/home/home-banner3.jpg")no-repeat center;
+    background-size: cover;
+}
+.home .boxCon .box4{
+    height:350px;
+    background: url("../asset/home/home-banner4-2.jpg")no-repeat center;
+    background-size: cover;
+}
+.home .boxCon .box5{
+    height:350px;
+    background: url("../asset/home/home-banner5.jpg")no-repeat center;
+    background-size: cover;
+}
+.home .boxCon .box6{
+    height:350px;
+    background: url("../asset/home/home-banner6.jpg")no-repeat center;
+    background-size: cover;
+}
+.home .boxCon .box7{
+    height:350px;
+    background: url("../asset/home/home-banner7.jpg")no-repeat center;
+    background-size: cover;
+}
+.download-btn:hover{
+    background-color: #00ffcc;
+    color: black;
+}
+.flex1{
+    order: 2
+}
+.flex2{
+    order: 1
+}
+@media screen and (min-width: 576px) {
+    .flex1{
+        order:1
+    }
+    .flex2{
+        order:2
+    }
+}
+
+.socialmedia-btn{
+    width: 30px;
+}
+.socialmedia-con{
+    justify-content: center;
+}
+.copyright{
+    margin-top: 80px;
+    font-size: 0.8rem;
+    color: #6D6D6D;
+    padding-bottom: 5rem;
+}
+.socialmedia-con a{
+    padding: 10px 10px 0 10px;
+}

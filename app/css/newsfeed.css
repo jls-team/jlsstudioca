@@ -1,0 +1,70 @@
+/* newsfeed page css */
+.newsfeed .subtitle{
+    color: #bfc1c6; 
+}
+.newsfeed .extra-padding-top{
+    padding-top: 20px;
+}
+.newsfeed .timeline, .newsfeed .swot-img{
+    text-align: center;
+    font-size: 12px;
+}
+.newsfeed .video-title{
+    width: 70%;
+    margin: 0 auto; 
+    padding: 20px 0 10px 0;
+    font-weight: 600;
+}
+.newsfeed .hero-text-main-container{
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+}
+
+.newsfeed .info-banner{
+    background-color: black !important;
+    color: white;
+}
+.info-text-category{
+    width: 100%;
+}
+@media all and (min-width: 768px) {
+    .info-text-category{
+        width: 100px;
+    }
+}
+
+.newsfeed a{
+    text-decoration: none;
+}
+.newsfeed .link-btn:hover{
+    background-color: #130f1b;
+    color: #E0ECFC;
+}
+.newsfeed .video-con{
+text-align: center;
+}
+
+.newsfeed .frame{
+    border: 1px solid black;
+    background: white;
+    filter: drop-shadow(10px 10px 0px black);
+    margin-bottom: 50px;
+}
+.table-title{
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+.newsfeed .table-subtext{
+    color: red;
+}
+.newsfeed .table-content{
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+.newsfeed .w-icon{
+    width: 30px;
+}
+.newsfeed .html-img-con{
+    width: 200px;
+   margin: 0 auto;
+} 

@@ -1,0 +1,12 @@
+/* clients page css */
+
+.clients .deck-images{
+    margin-bottom: 100px;
+}
+.clients .deck-images p{
+    text-align: center;
+}
+.clients .r-banner-con{
+    max-width: 980px;
+    margin: 0 auto;
+}

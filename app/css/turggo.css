@@ -1,0 +1,22 @@
+/* turggo css */
+
+.turggo .link-btn{
+    margin-top: 35px;
+    background: #f43939; 
+}
+.turggo .link-btn a:hover{
+    color: #f5c0c0;
+}
+
+.turggo .herobanner{
+    margin-bottom: 60px;
+}
+.turggo .info-banner{
+    background: black;
+    color: white;
+}
+
+.turggo .max-width{
+    max-width: 980px;
+    margin: 0 auto;
+}

@@ -1,0 +1,13 @@
+/* herobanner */
+.gameuiux .hero1-left-img{
+     padding-right: 20px;
+     padding-bottom: 50px;
+ }
+ @media all and (min-width: 992px) {
+ .gameuiux .hero1-right-text{
+    padding-left: 30px;
+}
+}
+.gameuiux span{
+    font-weight: 700;
+}

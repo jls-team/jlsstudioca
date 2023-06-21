@@ -1,0 +1,171 @@
+/* wiki page css*/
+.wiki span{
+    font-weight: 600;
+}
+.wiki .red-text {
+    margin-top: 15px;
+}
+.wiki a{
+    text-decoration: none;
+}
+
+.wiki .link-btn:hover{
+    background-color: #130f1b;
+    color: #E0ECFC;
+}
+.wiki .back-btn{ 
+    /* width: 100%;  */
+}
+.wiki .back-btn p{  
+    color: white;
+}
+.wiki h3{
+    text-transform: uppercase;
+}
+/* herobanner */
+.wiki .herobanner{
+    background: url("../asset/wiki/01.jpg");
+    background-size:  cover;
+    position: relative;
+}
+.hero-phone{
+    visibility: hidden;
+    height: 0px; 
+}
+.hero-phone-mobile{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.wiki .hero-text-main-container{
+    padding-top: 10px;
+    padding-bottom:30px;
+}
+.wiki-info-con{
+    padding:0 0 15px 0;
+}
+
+.wiki .img-con-large {
+    text-align: center;
+ }
+
+@media all and (max-width: 800px) {
+    .wiki .img-con-large img{
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 992px) { 
+    .wiki .hero-text-main-container{
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    .wiki .hero-text-main-container{
+        padding-top: 90px; 
+    }
+    .hero-phone-mobile{
+        visibility: hidden;
+        height: 0px;
+    } 
+    .hero-phone{
+        visibility: visible;
+        position: absolute;
+        top: 21%;
+        left: 9%;
+        /* width: 400px; */
+    }
+} 
+@media all and (min-width: 1200px) {
+    .hero-phone{ 
+        top: 15%;
+        left: 14%;
+    }
+}
+@media all and (min-width: 2400px) {
+    .hero-phone{ 
+        left: 30%;
+    }
+}
+.wiki-background-img{
+    background: url("../asset/wiki/02.jpg")no-repeat center;
+    background-size: cover;
+    height:450px;
+    width: 100%;
+}
+.wiki .hero-text-container{
+    color: white;
+}
+.wiki .hero-text-category{}
+.wiki .hero-subtext{}
+.wiki .hero-title{}
+.wiki .hero-text{}
+
+.wiki .uiux-icon, .wiki .uiux-text-container{
+text-align: center;
+}
+.wiki .uiux-icon{
+    margin: 30px 0;
+}
+     
+.wiki .wireframe-img, .wiki .flow-chart-img, 
+ .wiki .final-works-img{
+    width: 80%;
+   margin: 0 auto; 
+}
+.wiki .ui-kit-img{
+    width: 70%;
+    padding-top: 30px;
+   margin: 0 auto; 
+}
+.wiki .grey-box{
+    background: #F3F3F3;
+    border-radius: 10px;
+    padding: 15px;
+}
+.wiki .phone-maintext{
+    color: #4B4ABF;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.wiki .phone-text{
+    font-size: 12px;
+}
+
+.wiki .images-container{
+    text-align: center;
+    font-size: 12px;
+}
+ 
+.wiki .time-table-img{
+    visibility: hidden;
+    height: 0px; 
+}
+@media all and (min-width: 992px) {
+    .wiki .time-table-img{
+        visibility: visible;
+        position: absolute;
+        width:380px;
+        top: 75%;
+        right:8%
+    }
+} 
+@media all and (min-width: 1400px) {
+    .wiki .time-table-img{
+        top: 68%;
+        right:9%
+    }
+}
+@media all and (min-width: 2400px) {
+    .wiki .time-table-img{
+        right:29%
+    }
+}
+.wiki .info-text-category{
+width: 120px;
+}
+/* img margin bottom */
+.wiki .wireframe-img, .wiki .flow-chart-img, 
+.wiki .ui-kit-img, .wiki .final-works-img, 
+.wiki .uiux-container, .wiki .images-container, .wiki .solution-img{
+    padding-bottom: 80px;
+}

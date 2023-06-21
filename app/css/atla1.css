@@ -1,0 +1,69 @@
+/* herobanner */
+.atla .hero1-left-img{
+    /* padding-right: 20px; */
+    padding-bottom: 50px;
+}
+@media all and (min-width: 992px) {
+.atla .hero1-right-text{
+   padding-left: 30px;
+}
+}
+.atla span{
+   font-weight: 700;
+}
+.atla .text-center{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.atla .subtitle{
+    color: grey; 
+    font-size: medium;
+}
+.atla .components-bg{
+    background-color: #F3F3F3;
+    margin-top: 60px;
+}
+.atla .components{
+    max-width: 840px;
+    margin: auto;
+}
+.atla .p-indicator{
+    padding-bottom: 50px;
+}
+
+.atla .p-indicator .img-box{
+    text-align: center;
+}
+
+@media all and (max-width: 500px) {
+    .atla .p-indicator .img-box img{
+      width: 100%;
+    }
+}
+.atla .components-bg .center-text-container{
+    padding-top: 60px;
+}
+.atla .content-bar{
+    border-top: 1px solid #dbdbdb;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+.atla .box-container{
+    /* height: 280px;  */
+    height: 90%;
+}
+.atla .ratio-img{
+    margin-top: 50px;
+}
+
+.atla .color-img{
+    max-width: 600px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.atla .font-img{
+    max-width: 700px;
+    margin: auto;
+    padding-top: 50px;
+}

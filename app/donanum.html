@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/donanum.css">
+    <link rel="shortcut icon" type="image/jpg" href="asset/favicon/favicon.ico" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+        </script>
+    <script src="script/global.js"></script>
+</head>
+
+<body>
+    <div class="donanum">
+        <!-- Back to top button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <a href="index.html" onclick="goBack()" class="back-btn flex">
+            <div class="bar img-con">
+                <img src="asset/wiki/bar.png" alt="bar-img" />
+            </div>
+            <p>Back</p>
+        </a>
+        <div class="herobanner">
+            <div class="">
+                <div class="flex">
+                    <div class="hero hero1-left-img img-con">
+                        <img src="asset/donanum/herobanner.png" alt="hero-img" />
+                    </div>
+                    <div class="hero hero1-right-text">
+                        <div class="hero-text-main-container container">
+                            <div class="row hero-text-container">
+                                <div class="row hero-text-container">
+                                    <p class="hero-text-category col-md-2">Brand</p>
+                                    <p class="hero-subtext col-md-10">Donanum</p>
+                                </div>
+                                <div class="row hero-text-container">
+                                    <div class="row hero-text-container">
+                                        <p class="hero-text-category col-md-2">Project</p>
+                                        <h1 class="hero-title col-md-10">Donanum
+                                            Web-Application</h1>
+
+                                    </div>
+                                    <div class="row hero-text-container">
+                                        <p class="hero-text-category col-md-2">Summary</p>
+                                        <div class="hero-text col-md-10">
+                                            <p>The site is an online post-board helping to connecting tutors/ mentors
+                                                with
+                                                students. Once they are connected they have to meet in person to run a
+                                                class. Tutors can create content based on academic topics or a hobby.
+                                                <br />
+                                                Our team started working on the site from the idea to execution.
+                                            </p>
+                                            <a href="https://donanum.com/" target="_blank">
+                                                <div class="link-btn">
+                                                    View the site >
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="info-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="flex info-con">
+                            <p class="info-text-category">Design</p>
+                            <p class="info-text">
+                                UI/UX Design
+                                <br />
+                                Research 
+                                <br />
+                                Graphic Design
+                                <br />
+                                Branding
+                            </p>
+                        </div>
+                        <div class="flex info-con">
+                            <p class="info-text-category">Scope</p>
+                            <p class="info-text">Responsive design: Desktop, tablet, mobile</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="flex info-con">
+                            <p class="info-text-category">Tech</p>
+                            <p class="info-text">Front-end
+                                <br />Back-end Development
+                            </p>
+                        </div>
+                        <div class="flex info-con">
+                            <p class="info-text-category">Tool</p>
+                            <p class="info-text">Design: Photoshop, Adobe XD, Invision
+                                <br />
+                                Development: React
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="horizontal-text-container container">
+            <div class="row">
+                <h3 class="col-sm-12 col-md-3">Story</h3>
+                <p class="col-sm-12 col-md-9">
+
+                    I found out there are many ways to interact with people. One thing I got interested in was the study
+                    group. The study group is sharing knowledge and studying together.
+
+                    Once I came back to Vancouver, I start to learn programming. I registered for a class at academy
+                    school and the tuition fee was so expensive but I thought it was worth it because the counselor said
+                    they teach 1 (instructor) : 3 (students) ratio. However, there were 28 students and 4 instructors in
+                    one class. The biggest problem is that instructors don’t teach at people's level.
+                    Some people have a background in computer science so they follow instantly but someone doesn’t have
+                    any knowledge of coding and instructors don’t care about people who are failing. Those people who
+                    couldn't follow paid huge amounts of money and learned nothing.
+                </p>
+            </div>
+        </div> -->
+        <div class="horizontal-text-container container">
+            <div class="row padding-tb2">
+                <div class="col-sm-12 col-md-4">
+                    <h5 class="subtitle">First step</h5>
+                    <h3>Observation and idea</h3>
+                </div>
+                <div class="col-md-1"></div>
+                <p class="col-sm-12 col-md-7">There are many skill-share like sites, but there is no site to find tutors
+                    or
+                    mentors who teach in person. Especially for beginners, it's hard to describe problems they are
+                    facing. I remember when I was in University there was post boards in a school to find
+                    tutors. The main goal of the site is help people to find tutors or mentors via online post-board
+                    site.
+                </p>
+            </div>
+        </div>
+
+        <div class="problems-box-con">
+            <div class="container">
+                <div class="center-text-container">
+                    <h5>Problems</h5>
+                    <h3>Academy school and online courses</h3>
+                </div>
+                <div class="problems-box">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="uiux-icon"><img src="asset/donanum/icon01.png" alt="icon3"></div>
+                            <div class="uiux-text-container">
+                                <h6 class="uiux-maintext">Meet up</h6>
+                                <p>Hard to find 1:1 mentor</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="uiux-icon"><img src="asset/donanum/icon02.png" alt="icon2"></div>
+                            <div class="uiux-text-container">
+                                <h6 class="uiux-maintext">School</h6>
+                                <p>Academic schools are expensive and college only provide the day time classes</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="uiux-icon"><img src="asset/donanum/icon03.png" alt="icon1"></div>
+                            <div class="uiux-text-container">
+                                <h6 class="uiux-maintext">Online Courses</h6>
+                                <p>​Some online courses are not accurate and hard to follow. For example learning
+                                    programming - software and tools are
+                                    frequently updated so explanations in video gets outdated.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="uiux-icon"><img src="asset/donanum/icon04.png" alt="icon1"></div>
+                            <div class="uiux-text-container">
+                                <h6 class="uiux-maintext">Online course</h6>
+                                <p>Something is breaking or not working as expected. Then it's good to have a person to
+                                    ask questions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="center-text-container container">
+            <div class="row">
+                <div class=" ">
+                    <!-- <h5 class="subtitle">Solution</h5> -->
+                    <h3>The goal</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="sp-b step-text-container1">
+                        <h6 class="step-maintext">Students</h6>
+                        <p>Learn without restrictions
+                            <br />Choose level of learning
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <div class="sp-b  step-text-container2">
+                        <h6 class="step-maintext">Both</h6>
+                        <p>Easy to connect <br />
+                            Flexibility
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                    <div class="sp-b step-text-container3">
+                        <h6 class="step-maintext">Tutors/ Mentors</h6>
+                        <p>​Earn money using their skill <br />
+                            Easy to open a class</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="center-text-container container">
+            <div class="">
+                <h5 class="subtitle">Schedule</h5>
+                <h3>Scope of work and timeline</h3>
+            </div>
+        </div>
+        <div class="time-table-bg">
+            <div class="container">
+                <div class="img-con"><img src="asset/donanum/time-table.jpg" alt="time-table-img" /></div>
+            </div>
+        </div>
+
+
+        <div class="horizontal-text-container container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <h5 class="subtitle">Research</h5>
+                    <h3>Similar websites & Keywords</h3>
+                </div>
+                <div class="col-md-1"></div>
+                <p class="col-sm-12 col-md-7">To do bench marketing, start from researching similar websites to
+                    understand the trendy layout and the content.
+                    <br />
+                    Also, researched keywords from other education websites using Google.
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img-con img-m-b"><img src="asset/donanum/keywords.jpg" alt="keywords-img" /></div>
+        </div>
+
+        <div class="grey-bg">
+            <div class="center-text-container container">
+                <div class="row">
+                    <div class=" ">
+                        <h5 class="subtitle">UI UX</h5>
+                        <h3>Target Market</h3>
+                    </div>
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="padding-tb">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="img-con">
+                                <img src="asset/donanum/user01.png" alt="user-img" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="img-con">
+                                <img src="asset/donanum/user04.png" alt="user-img" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="img-con">
+                                <img src="asset/donanum/user02.png" alt="user-img" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="img-con">
+                                <img src="asset/donanum/user03.png" alt="user-img" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="center-text-container container">
+            <div class="">
+                <h5 class="subtitle">UI UX</h5>
+                <h3>Smooth and intuitive site flow</h3>
+            </div>
+        </div>
+        <div class="container">
+            <div class="img-con img-m-b"><img src="asset/donanum/simple-flow.png" alt="simple-flow-img" /></div>
+        </div>
+
+
+        <div class="center-text-container container">
+            <div class="">
+                <h5 class="subtitle">UI UX</h5>
+                <h3>Wireframe</h3>
+            </div>
+        </div>
+        <div class="container wireframe-bottom">
+            <div class="img-con"><img src="asset/donanum/wireframe01.png" alt="wireframe01-img" /></div>
+        </div>
+
+
+        <div class="center-text-container container">
+            <div class="">
+                <h5 class="subtitle">UI UX</h5>
+                <h3>Prototype</h3>
+            </div>
+        </div>
+        <div class="container wireframe-bottom">
+            <div class="img-con"><img src="asset/donanum/wireframe02.png" alt="wireframe02-img" /></div>
+        </div>
+
+        <div class="grey-bg">
+            <div class="center-text-container container">
+                <div class="">
+                    <h5 class="subtitle">UI UX</h5>
+                    <h3>Flow Chart</h3>
+                    <p>Create a flowchart to communicate with developers</p>
+                </div>
+                <div class="img-con "><img src="asset/donanum/flow-chart.png" alt="flow-chart-img" /></div>
+            </div>
+        </div>
+
+
+        <!-- <div class="flex prevnext-con">
+            <div class="prev-btn">
+                <a href="newsfeed.html">
+                    <p>← Prev</p>
+                </a>
+            </div>
+            <div class="next-btn">
+                <a href="clients.html">
+                    <p>Next →</p>
+                </a>
+            </div>
+        </div> -->
+
+
+        <div class="footer"></div>
+
+    </div>
+</body>
+
+</html>
